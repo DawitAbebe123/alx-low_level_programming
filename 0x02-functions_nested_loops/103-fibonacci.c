@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Prints the sum of even-valued fibonacci sequence terms
  * not exceeding 4000000.
