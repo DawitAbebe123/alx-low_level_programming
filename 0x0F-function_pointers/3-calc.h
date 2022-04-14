@@ -1,9 +1,15 @@
-#ifndef HEADERGUARD
-#define HEADERGUARD
+#ifndef CALC_H
+#define CALC_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
- * Desc: Header file containing all structures and
- * prototypes used by the 3-main.c program.
+ * struct op - Struct op
+ *
+ * @op: The operator
+ * @f: The function associated
  */
 typedef struct op
 {
